@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+   <head>
+      <title>ReveryReview</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <script>
+         <!-- This JavaScript function below cannot be placed in an external file because it will not work. !-->
+         function loadXMLDoc(filename)
+         {
+         if (window.ActiveXObject)
+           {
+           xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+           }
+         else 
+           {
+           xhttp = new XMLHttpRequest();
+           }
+         xhttp.open("GET", filename, false);
+         try {xhttp.responseType = "msxml-document"} catch(err) {} 
+         xhttp.send("");
+         return xhttp.responseXML;
+         }
+         
+         function displayResult()
+         {
+         xml = loadXMLDoc("bookxml.xml");
+         xsl = loadXMLDoc("bookxsl.xsl");
+         
+         if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+           {
+           ex = xml.transformNode(xsl);
+           document.getElementById("content").innerHTML = ex;
+           }
+         
+         else if (document.implementation && document.implementation.createDocument)
+           {
+           xsltProcessor = new XSLTProcessor();
+           xsltProcessor.importStylesheet(xsl);
+           resultDocument = xsltProcessor.transformToFragment(xml, document);
+           document.getElementById("content").appendChild(resultDocument);
+           }
+         }
+         
+         
+         
+         
+      </script>
+   </head>
+   <body class="experiment" onload="displayResult()">
+      <div id="wrapper">
+         <div id="experiment">
+            <div id="header">
+               <br /><br />
+               <a href="home.html"><div class="headTitle">ReveryReview</div></a>
+            </div>
+            <div id="navigation">
+               <ul class="drop_menu">
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="blogarticle.html">Blog Articles</a></li>
+                  <li><a href="faq.html">FAQs</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li>
+                     <a href="#">Account</a>
+                     <ul>
+                        <li><a href='login.php'>Login</a></li>
+                        <li><a href='registration.php'>Register</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+            <div id="content">
+               <div id="grad" >&nbsp;</div>
+               <div id="leftcolumn">
+                  <div id="leftmenu">
+                     <h3 class="title1"> &nbsp;ARCHIVES</h3>
+                     <nav>
+                        <ul>
+                           <li><a href="#">January</a></li>
+                           <li><a href="#">February</a></li>
+                           <li><a href="#">March</a></li>
+                           <li><a href="#">April</a></li>
+                           <li><a href="#">May</a></li>
+                           <li><a href="#">June</a></li>
+                           <li><a href="#">July</a></li>
+                           <li><a href="#">August</a></li>
+                        </ul>
+                     </nav>
+                     <h3 class="title2"> &nbsp; Categories</h3>
+                     <nav>
+                        <ul>
+                           <li><a href="#">Programming</a></li>
+                           <li><a href="#">Database</a></li>
+                           <li><a href="#">Hardware</a></li>
+                           <li><a href="#">Software & Graphics</a></li>
+                           <li><a href="#">Web Development</a></li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+            <div id="footer">
+               <p>Copyright &#64 2014 by Omar Hassan</p>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

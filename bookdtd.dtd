@@ -1,0 +1,25 @@
+<!ELEMENT books (book)+>
+<!ELEMENT book             (title, edition, type, price, bookImage, firstParagraph, secondParagraph, author+, publishedDate, contributor+)>
+<!ELEMENT title            (#PCDATA)>
+<!ELEMENT edition          (#PCDATA)>
+<!ELEMENT type             (#PCDATA)>
+<!ELEMENT price            (#PCDATA)>
+<!ELEMENT bookImage        (#PCDATA)>
+<!ELEMENT firstParagraph   (#PCDATA)>
+<!ELEMENT secondParagraph  (#PCDATA)>
+<!ELEMENT author           (first, middle?, last)>
+<!ELEMENT first            (#PCDATA)>
+<!ELEMENT middle           (#PCDATA)>
+<!ELEMENT last             (#PCDATA)>
+<!ELEMENT publishedDate    (day, month, year)>
+<!ELEMENT month            (#PCDATA)>
+<!ELEMENT day              (#PCDATA)>
+<!ELEMENT year             (#PCDATA)>
+<!ELEMENT contributor      (contFirst, contMiddle?, contLast, postedDate)>
+<!ELEMENT contFirst        (#PCDATA)>
+<!ELEMENT contMiddle       (#PCDATA)>
+<!ELEMENT contLast         (#PCDATA)>
+<!ELEMENT postedDate       (#PCDATA)>
+
+<!ATTLIST book isbn CDATA "0">
+<!ATTLIST bookImage type (JPG|PNG) #REQUIRED>

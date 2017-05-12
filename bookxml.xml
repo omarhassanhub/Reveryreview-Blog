@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+<books xmlns="http://localhost" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://localhost bookschema.xsd">
+  <!--!DOCTYPE books SYSTEM "bookdtd.dtd"!-->
+  <book isbn="0836217462">
+    <title>Imperfect C++</title>
+    <edition>1</edition>
+    <type>Programming Language</type>
+    <price>16.00</price>
+    <bookImage type="JPG">images/imperfectc++.jpg</bookImage>
+    <firstParagraph>
+      C++ is not a perfect language and Matthew Wilson tries to explain how to put it right. This book outlines the author&#x2019;s views on how to program in C++ and how to best use C++ and is full of academic references and quotes from other people&#x2019;s work.
+    </firstParagraph>
+    <secondParagraph>
+      The first few pages are persuasive, as soon as I got started, alot of difficult concepts are introduced. Templates and a lot of advanced features are being used without any description and you either understand the examples or you don&#x2019;t. The examples are more related with scholarly philosophy. Even if you do understand everything about C++ you will still be left with an overwhelming feeling that maybe C++ is just too flawed as a language.
+
+      C was a good language in its time, which was a high level assembler. However, C++ is perhaps best described as a low level object-oriented language. You can use it to create anything you want to make it and as such over all the language has no regulation.
+      This book is about introducing regulation into its readers when the fault lies in the language. Personally, I think this book is for super experts, but it isn&#x2019;t for the general reader.
+    </secondParagraph>
+    <author>
+      <first>Matthew</first>
+      <middle/>
+      <last>Wilson</last>
+    </author>
+    <publishedDate>
+      <day>21</day>
+      <month>10</month>
+      <year>2004</year>
+    </publishedDate>
+    <contributor>
+      <contFirst>Omar</contFirst>
+      <contMiddle/>
+      <contLast>Hassan</contLast>
+      <postedDate>15/11/2014</postedDate>
+    </contributor>
+  </book>
+  <book isbn="0132821540">
+    <title>Java for Programmers</title>
+    <edition>1</edition>
+    <type>Programming Language</type>
+    <price>36.43</price>
+    <bookImage type="JPG">images/Java4Programmers.jpg</bookImage>
+    <firstParagraph>
+	I wasn't really interested with this book. The Deitel approach is to create something enormous such as an academic textbook than an inspiring read. It has 1200 pages. It is a very friendly and helpful by including short notes on usual mistakes in programming. Though the layout and the very small print probably make the effort pointless.
+	</firstParagraph>
+    <secondParagraph>
+	It covers Java 6 from the first concepts including objects, widgets, user interface, JDBC, graphics, generics and so on. 
+	Though it is supposedly aimed at programmers, but it is not a great book for a beginner because the order in which the material is initiated isn't helpful and nor is the introduction of advanced concepts such as object oriented design and UML right at the start. 
+
+	The authors really do not seem to have a clear idea of who their audience is and as a result have ended up making a book that is not exactly right for any level of experience. The best thing I can state about this book is that it's "very big".
+	</secondParagraph>
+    <author>
+      <first>Paul </first>
+      <middle/>
+      <last>Deitel</last>
+    </author>
+    <publishedDate>
+      <day>12</day>
+      <month>02</month>
+      <year>2009</year>
+    </publishedDate>
+    <contributor>
+      <contFirst>Ramal</contFirst>
+      <contMiddle/>
+      <contLast>Sayi</contLast>
+      <postedDate>19/11/2014</postedDate>
+    </contributor>
+  </book>
+  <book isbn="0596527748">
+    <title>Head First JavaScript</title>
+    <edition>1</edition>
+    <type>Programming Language</type>
+    <price>25.72</price>
+    <bookImage type="JPG">images/head_first_javascript.jpg</bookImage>
+    <firstParagraph>
+	Head First books are thought to make difficult subjects easy but just rarely you have to come to the decision that trivializing a difficult idea is not really a good idea. In this case the topic matter is JavaScript, a computer language embedded in a very complex environment - HTML, DOM, and just about everything else you can name. What makes the condition worse is that there is no good development environment. In brief JavaScript can be very difficult.
+	</firstParagraph>
+    <secondParagraph>
+	
+	The method used by all books in the Head First series is labelled as brain friendly and uses a mixture of quizzes, photos, notes with captions and jokes to make learning easy. This specific one just doesn't work. The presentation is random and achieves its brain-friendly status by simply going slow and throwing in exercises as if their purpose was to decrease the pace and so make it all so much easier. 
+	
+	It also reads as if it has been set together in a rush and not well thought out.There are many times when I really disagree with the ideas being presented - for example if statements as an alternative to using logical conditions.
+	</secondParagraph>
+    <author>
+      <first>Michael </first>
+      <middle/>
+      <last>Morrison</last>
+    </author>
+    <publishedDate>
+      <day>30</day>
+      <month>12</month>
+      <year>2007</year>
+    </publishedDate>
+    <contributor>
+      <contFirst>Emily</contFirst>
+      <contMiddle/>
+      <contLast>Dave</contLast>
+      <postedDate>21/11/2014</postedDate>
+    </contributor>
+  </book>
+  <book isbn="0470413964">
+    <title>Beginning PHP 5.3</title>
+    <edition>1</edition>
+    <type>Programming Language</type>
+    <price>26.99</price>
+    <bookImage type="JPG">images/beginningphp.jpg</bookImage>
+    <firstParagraph>
+	This is a straightforward method to explaining PHP with the first eight chapters following a standard course through the material. The details are clear, sometimes a little too much for the complete beginner, and the examples are to the point. By the end of Chapter 8, you reach objects and object-oriented methods.
+	</firstParagraph>
+    <secondParagraph>
+	The remaining of the book is a section titled &#x201C;Using PHP in Practice&#x201D; and this focuses with all of the methods that PHP interacts with other web technologies. The book clarifies how to control forms, and work with files and offers three whole chapters regarding MySQL database. 
+	
+	From this section, the book begins to cover the restrictions of the PHP world, working with XML, images, regular expressions, and writing high quality code. Though much of the book is appropriate for the beginner the technical level does increase steadily but the concepts are well described. 
+	</secondParagraph>
+    <author>
+      <first>Matt</first>
+      <middle/>
+      <last>Doyle</last>
+    </author>
+    <publishedDate>
+      <day>27</day>
+      <month>10</month>
+      <year>2009</year>
+    </publishedDate>
+    <contributor>
+      <contFirst>Omar</contFirst>
+      <contMiddle/>
+      <contLast>Hassan</contLast>
+      <postedDate>05/12/2014</postedDate>
+    </contributor>
+  </book>
+  <book isbn="0470563125">
+    <title>Expert PHP and MySQL</title>
+    <edition>1</edition>
+    <type>Programming Language</type>
+    <price>20.39</price>
+    <bookImage type="JPG">images/phpmysql.jpg</bookImage>
+    <firstParagraph>
+	This book targets to take someone who understands the basics of PHP programming, and show them not just how to create PHP and MySQL projects, but how to construct projects. 
+    Marc Rochkind technical background is inspiring, and that shows through in this well-written book.
+	</firstParagraph>
+    <secondParagraph>
+	The chapter one is mainly focused on project organisation covering subjects such as setting the schedule, creating a development team, reasons why projects fail, authorities such as having a written contract, invoicing and getting the money, and intellectual rights.
+	
+    Chapter two moves on to requirements in regards to the requirements document, ways to deal with requirements changing, managing the project scope, and agile requirements. Though all of this is common to all software projects, but fascinating reading all the same.
+	</secondParagraph>
+    <author>
+      <first>Marc</first>
+      <middle/>
+      <last>Rochkind</last>
+    </author>
+    <publishedDate>
+      <day>19</day>
+      <month>03</month>
+      <year>2010</year>
+    </publishedDate>
+    <contributor>
+      <contFirst>Omar</contFirst>
+      <contMiddle/>
+      <contLast>Hassan</contLast>
+      <postedDate>15/12/2014</postedDate>
+    </contributor>
+  </book>
+  <book isbn="1935182080">
+    <title>Hello! Python </title>
+    <edition>1</edition>
+    <type>Programming Language</type>
+    <price>20.44</price>
+    <bookImage type="JPG">images/python.jpg</bookImage>
+    <firstParagraph>
+	Chapter 1 begins us off with the ways to find and setup Python on Mac, Windows and Linux. The guidelines are clear, but when it comes to testing the installation we have to resort to a text editor and to the command prompt. 
+	</firstParagraph>
+    <secondParagraph>
+	Chapter 2 presents Python through an example &#x201C; Wumpus&#x201D; program. This begins by presenting the print statement with &#x201C;Hello World&#x201D; but 4 pages on we have looked at variables and loops. 
+	
+	For instance, variables are labelled as being able of storing floating point values, however, this is not a term that is described and not one that a beginner is expected to have encountered.
+	
+	The method to teaching seems to be to tell the reader as much as possible and display it in action in a reasonably difficult program example. 
+	If this is how a learner wants to learn, then they will like this book but most complete beginners are going to be left questioning what is going on.
+	</secondParagraph>
+    <author>
+      <first>Anthony </first>
+      <middle/>
+      <last>Briggs</last>
+    </author>
+    <publishedDate>
+      <day>23</day>
+      <month>02</month>
+      <year>2012</year>
+    </publishedDate>
+    <contributor>
+      <contFirst>Omar</contFirst>
+      <contMiddle/>
+      <contLast>Hassan</contLast>
+      <postedDate>17/12/2014</postedDate>
+    </contributor>
+  </book>
+  <book isbn="1861003145">
+    <title>Beginning Perl</title>
+    <edition>1</edition>
+    <type>Programming Language</type>
+    <price>20.44</price>
+    <bookImage type="JPG">images/beginningperl.jpg</bookImage>
+    <firstParagraph>
+	The author (Ovid) takes an interesting style. He tries to fill the gap between learning a language and actually relating that knowledge for getting a job.
+    After reading a lot about Perl, it seems like most books on Perl teach the language itself, its concepts and how to use them, while the code examples and practical exercises re-enforce understanding, but that can only take a learner so far.
+	</firstParagraph>
+    <secondParagraph>
+	This does not happen without the basics however, so after the language theory is established, it focuses in obtaining those skills and. Obviously, 
+	this does not mean that a learner will instantly become an expert after completing it, but you will have at least learned a firm understanding of the basics and, above all, you will have been given the direction you would be pointing to.
+	
+    The writer tries to provide for those who have not done programming before as well as those who are already programmers and want to learn Perl. 
+	
+	Because of the level of gap, trying to bring together the learning style of these two groups may seem like a difficult task. 
+	
+	Usually, programmers already know what an object is, a data type, a subroutine, and a while loop and syntax rules and the fundamentals that make it worth committing to.
+
+	</secondParagraph>
+    <author>
+      <first>Curtis</first>
+      <middle>Ovid</middle>
+      <last>Poe</last>
+    </author>
+    <publishedDate>
+      <day>01</day>
+      <month>06</month>
+      <year>2000</year>
+    </publishedDate>
+    <contributor>
+      <contFirst>Omar</contFirst>
+      <contMiddle/>
+      <contLast>Hassan</contLast>
+      <postedDate>25/12/2014</postedDate>
+    </contributor>
+  </book>
+  <book isbn="0596523009">
+    <title>Ruby Best Practices</title>
+    <edition>1</edition>
+    <type>Programming Language</type>
+    <price>19.07</price>
+    <bookImage type="JPG">images/ruby.jpg</bookImage>
+    <firstParagraph>
+	This book does not seem very interesting but read on as you may disagree after I have described it to you. The big issue is that a book called &#x201C;Ruby Best Practices&#x201D; must really be about a set of principles that can be regarded as "Best Practices".Instead this book is a fairly presenting a bunch of topics that the author finds interesting and he explains them by claiming that they are what makes Ruby special.
+	</firstParagraph>
+    <secondParagraph>
+	Chapter 1 is on using tests to drive Ruby development and most of the concepts that are presented are not mainly Ruby based, although the examples and techniques are.Then we move on to "Designing Beautiful APIs" which puts us into using code blocks in interesting methods. 
+	
+	In addition, a chapter on using the dynamic toolkit is convenient, as is one on file management and text processing but they do not exactly fit the "best practices" idea. Chapter 5 is a summary of functional programming in Ruby; Chapter 6 is on debugging; Chapter 7 is on localisation and the last chapter is on maintenance. 
+	</secondParagraph>
+    <author>
+      <first>Gregory</first>
+      <middle/>
+      <last>Brown</last>
+    </author>
+    <publishedDate>
+      <day>26</day>
+      <month>06</month>
+      <year>2009</year>
+    </publishedDate>
+    <contributor>
+      <contFirst>Omar</contFirst>
+      <contMiddle/>
+      <contLast>Hassan</contLast>
+      <postedDate>10/01/2015</postedDate>
+    </contributor>
+  </book>
+  <book isbn="0672330636">
+    <title>C# 4.0 How-To</title>
+    <edition>1</edition>
+    <type>Programming Language</type>
+    <price>23.68</price>
+    <bookImage type="JPG">images/chowto.jpg</bookImage>
+    <firstParagraph>
+	This is basically a cookbook that shows a learner the best way to use C# language to solve different issues. Some of the issues are contrived just to allow the writer to write about some topic or other but this isn't actually a bad thing.
+	</firstParagraph>
+    <secondParagraph>
+	The book is divided into 4 parts. Beginning off with C# language fundamentals there are units on everything from basic types to regular expressions and generics. 
+	
+	The second part is about data management and this is construed to mean collections, networking, files, XML and database.
+	
+	The third part is about user interaction and this takes us further than what may be considered core C# into the realm of Silverlight and .NET. The book ends with chapter 4 on advanced C#. This has an account of memory management, threads, and reflection. 
+	</secondParagraph>
+    <author>
+      <first>Ben</first>
+      <middle/>
+      <last>Watson</last>
+    </author>
+    <publishedDate>
+      <day>01</day>
+      <month>03</month>
+      <year>2010</year>
+    </publishedDate>
+    <contributor>
+      <contFirst>Omar</contFirst>
+      <contMiddle/>
+      <contLast>Hassan</contLast>
+      <postedDate>15/01/2015</postedDate>
+    </contributor>
+  </book>
+  <book isbn="0672329123">
+    <title>Ajax for Web Application Developers</title>
+    <edition>1</edition>
+    <type>Programming Language</type>
+    <price>32.99</price>
+    <bookImage type="JPG">images/ajax.jpg</bookImage>
+    <firstParagraph>
+    Most introductory books on Ajax begin with the basics, this book brings together may languages including JavaScript, XML etc. Kris Hadlock's makes a lot of assumptions. This book is not really a book aimed at the complete beginner, but instead is targeted more towards the existing web developer who wants to add some Ajax to their collection.
+	</firstParagraph>
+    <secondParagraph>
+	The book consists of 6 sections, beginning with a fast introductory to what makes Ajax tick and finishing with a section on best practices and security, through design patterns, creating a JavaScript Ajax engine and a section on components.
+	
+	This is actually a fair piece of material for a rather slim book that is only 256 pages of text. Partially this is because there is very little padding in the text.
+    
+	Regarding the core material, how Ajax functions and how to create a set of components that you can deploy across various applications, the writing is brief and to the point. 
+	
+	A learner does not need to be expert to make sense of it all, though knowledge of object oriented programming is certainly a bonus. 
+	Also, if you know the basics of XML and DOM will also help. For those learners who don't have that background knowledge you will need to work harder to make sense of what goes on at times.
+	</secondParagraph>
+    <author>
+      <first>Kris</first>
+      <middle/>
+      <last>Hadlock</last>
+    </author>
+    <publishedDate>
+      <day>30</day>
+      <month>10</month>
+      <year>2006</year>
+    </publishedDate>
+    <contributor>
+      <contFirst>Omar</contFirst>
+      <contMiddle/>
+      <contLast>Hassan</contLast>
+      <postedDate>20/01/2015</postedDate>
+    </contributor>
+  </book>
+
+</books>

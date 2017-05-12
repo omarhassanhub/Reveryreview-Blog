@@ -1,0 +1,58 @@
+.tdBloggers {
+width:200px;
+border-color:#FFF #FFF gray;
+border-style:solid;
+border-width:1px 2px 3px 4px;
+}
+
+.tdTitle {
+color:gray;
+border-top:dotted;
+border-color:silver;
+border-width:1px;
+}
+
+.tdAuthor {
+width:100px;
+}
+
+.tdBookImage img {
+width:100px;
+height:120px;
+display:block;
+box-shadow:2px 5px 5px #888;
+}
+
+.tdBookImage:hover {
+opacity:0.3;
+filter:alpha(opacity=30);
+}
+
+.tdProfileImage {
+float:right;
+border:1px solid;
+width:150px;
+}
+
+.tdDescription .pDescription:first-letter {
+font-size:2.5em;
+font-weight:700;
+text-transform:capitalize;
+color:#0B3861;
+}
+
+.pDescription2 {
+white-space:pre-line;
+}
+
+.tableMore {
+border:1px solid #000;
+}
+
+.tableMore th {
+background-color:#819FF7;
+}
+
+.tableMore td {
+text-align:center;
+}
